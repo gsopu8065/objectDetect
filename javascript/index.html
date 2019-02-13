@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenCV.js</title>
+</head>
+<body>
+
+
+
+<canvas id="imageCanvas" ></canvas>
+
+<canvas id="imageThres" ></canvas>
+
+
+<img src="./frame2.png" id="image1" style="width:900px; height:800px;">
+
+<video id="videoInput" autoplay="true" width="900" height="800" style="display:none"></video>
+<button onclick="stopVideo()">Stop</button>
+
+<script type="text/javascript" src="./index.js"></script>
+<script async src="./opencv.js" onload="imageTest();" type="text/javascript"></script>
+
+</body>
+</html>
